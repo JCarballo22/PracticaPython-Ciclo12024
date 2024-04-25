@@ -67,3 +67,46 @@ for i in [1,2,3,4]:
 print(f"El bucle a terminado, ahora i vale {i}")
 
 print("Fin")
+
+#Ejemplo 9 - For
+print("Comienzo del bucle For")
+for list in ["a","b","c"]:
+    print("El valor en la lista es: " + list)
+
+for list in ["a","b","c","d","e"]:
+    print("Otros valores: "+ list)
+
+print("Fin")
+
+#Ejemplo 10 - For
+print("Comienzo del bucle for")
+
+for i in "Fundamentos":
+    print(f"dame una {i}")
+
+print("fin")
+
+#Ejemplo 11 - For
+print("comienzo del bucle")
+for i in range(3):
+    print("UNAB - Chalatenango",end=" ")
+
+print("fin")
+
+#Ejemplo 12 - for
+print("comienzo del bucle")
+for i in range(15):
+    print("UNAB - Chalatenango",end=" ")
+
+print("fin")
+
+#Ejemplo 13 - For
+print("Comienzo del bucle for")
+valor = int(input("ingrese un numero: "))
+
+for i in range(valor):
+    print("El usuario decide cuantas veces se realiza la iteración", i)
+
+print("fin")
+
+
